@@ -1,0 +1,40 @@
+.carousel-header {
+	font-size: var(--wp--preset--font-size--x-large) !important;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+
+	button {
+		background-color: #fff;
+		border: 1px solid;
+		border-radius: 2rem;
+		padding: 1rem;
+		width: 3rem;
+		height: 3rem;
+		cursor: pointer;
+
+		&:hover {
+			background-color: var(--wp--preset--color--dojo-mood-subtle);
+
+			color: #fff;
+		}
+	}
+}
+
+.query-loop-carousel {
+	overflow: hidden;
+	width: 100%;
+}
+
+.query-loop-carousel > ul {
+	display: flex;
+	gap: 1rem;
+	transition: transform 1s ease-in-out;
+}
+
+.query-loop-carousel > ul > li {
+	flex: 0 0 calc((100% / var(--items-per-view, 1)) - 1rem);
+	/* Adjust width based on items per view */
+	justify-content: space-around;
+	align-items: center;
+}
