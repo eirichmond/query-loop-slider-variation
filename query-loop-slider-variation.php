@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Query Loop Slider Variation
- * Description:       Example block scaffolded with Create Block tool.
+ * Description:       A Query Look Block Variation.
  * Requires at least: 6.6
  * Requires PHP:      7.2
  * Version:           0.1.0
